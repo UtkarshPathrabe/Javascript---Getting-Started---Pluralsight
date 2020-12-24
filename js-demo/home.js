@@ -1,8 +1,6 @@
-// let message = 'Hello';
-// message = message.toLowerCase();
-// message = message.toUpperCase();
-// message = message.substring(1);
-// message = message.length;
-// showMessage(message);
-let message = '123';
-showMessage(message + 2);
+// let amount = 123;
+// amount = amount.toString();
+// showMessage(typeof amount);
+
+let amount = Number.parseFloat('123.12');
+showMessage(amount);
