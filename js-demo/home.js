@@ -1,12 +1,13 @@
-// let price;
-const price = 40;
+let price = (3 + 2) * 2;
 
-// lots of code...
+// price += 5;
+// price -= 5;
+// price *= 5;
+// price /= 5;
+// price %= 5;
 
-// price = 49.99;
-
-// more code here...
-
-// price = 29.99;
-
+// showMessage(++price);
+// showMessage(price++);
+// showMessage(--price);
+// showMessage(price++);
 showMessage(price);
