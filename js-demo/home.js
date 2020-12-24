@@ -1,8 +1,5 @@
-// let saved;
-// showMessage(saved);
-// console.log(saved);
-
-let saved = 10;
-saved = null;
-showMessage(saved);
-console.log(saved);
+let person = {
+	firstName: 'John',
+	lastName: 'Adams',
+};
+showMessage(person.firstName);
