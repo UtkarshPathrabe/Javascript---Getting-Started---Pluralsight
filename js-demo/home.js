@@ -1,4 +1,5 @@
-let myFunction = function loggingFunction() {
-	console.log('Here is a message');
+let myFunction = function (message, firstName) {
+	console.log(message);
+	console.log(firstName);
 };
-myFunction();
+myFunction('Hello', 'John');
