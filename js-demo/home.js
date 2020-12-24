@@ -1,3 +1,5 @@
-let price = 20;
-let message = price < 10 ? 'yes' : 'no';
-showMessage(message);
+if (true) {
+	let value = 'yes';
+	showMessage(value);
+}
+console.log(value);
