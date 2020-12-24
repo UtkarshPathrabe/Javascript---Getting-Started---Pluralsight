@@ -1,5 +1,3 @@
-if (true) {
-	let value = 'yes';
-	showMessage(value);
+for (let i = 0; i <= 5; i++) {
+	console.log(i);
 }
-console.log(value);
