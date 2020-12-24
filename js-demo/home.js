@@ -1,5 +1,5 @@
-let myFunction = function (message, firstName) {
-	console.log(message);
-	console.log(firstName);
-};
-myFunction('Hello', 'John');
+function getSecretCode(value) {
+	let code = value * 42;
+	return code;
+}
+showMessage(getSecretCode(2));
