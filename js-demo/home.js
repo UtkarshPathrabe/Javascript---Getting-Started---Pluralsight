@@ -1,2 +1,3 @@
-let amount = 0;
-showMessage(--amount);
+let person = 'Andrea';
+let message = `Hello ${person}`;
+showMessage(message);
