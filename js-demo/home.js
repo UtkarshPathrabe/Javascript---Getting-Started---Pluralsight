@@ -1,10 +1,10 @@
-let mySymbol = Symbol();
 let person = {
 	name: 'John',
 	age: 32,
 	partTime: false,
-	[mySymbol]: 'secrectInformation',
+	showInfo: function (realAge) {
+		showMessage(this.name + ' is ' + realAge);
+	},
 };
-// person.age = 33;
-person['age'] = 44;
-showMessage(person.age);
+
+person.showInfo(34);
