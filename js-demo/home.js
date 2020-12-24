@@ -1,4 +1,6 @@
-if (+(1.1 + 1.3).toFixed(2) === 2.4) {
-	let message = 'hello';
-	showMessage(message);
+let price = 4;
+if (price > 10) {
+	showMessage('true');
+} else if (price < 5) {
+	showMessage('less than 5');
 }
