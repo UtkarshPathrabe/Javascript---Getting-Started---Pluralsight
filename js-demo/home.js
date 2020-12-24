@@ -1,6 +1,5 @@
-let price = 4;
-if (price > 10) {
+if (1 === '1') {
 	showMessage('true');
-} else if (price < 5) {
-	showMessage('less than 5');
+} else {
+	showMessage('false');
 }
