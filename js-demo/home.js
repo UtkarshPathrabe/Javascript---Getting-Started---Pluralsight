@@ -1,2 +1,2 @@
-let price = 1.1 + 1.3;
-showMessage(price);
+let amount = 0;
+showMessage(--amount);
