@@ -1,6 +1,18 @@
-const values = ['a', 'b', 'c', 'd', 'e'];
-const newValues = values.slice(1, 4);
+const values = ['a', 'b', 'ccc', 'dddd', 'e'];
+console.log(values.indexOf('c'), values.indexOf('v'));
+
+const newValues = values.filter(function (item) {
+	return item > 'b';
+});
+
 console.log(newValues);
-values.splice(2, 2);
-values.splice(1, 0, 'foo');
-console.log(values);
+
+const found = values.find(function (item) {
+	return item.length > 1;
+});
+
+console.log(found);
+
+values.forEach(function (item) {
+	console.log(item);
+});
