@@ -1,3 +1,8 @@
 const values = ['a', 'b', 'c'];
-values[0] = 'aaa';
-console.log(values[0], values[1], values[2], values[3]);
+values.push('d');
+console.log(values);
+const last = values.pop();
+console.log(last, values);
+values.unshift('aaa');
+console.log(values);
+console.log(values.shift(), values);
