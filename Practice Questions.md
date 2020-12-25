@@ -166,3 +166,11 @@ B. second
 C. first  
 D. (nothing)  
 Answer: `first`  
+
+Q15. How do you add an item to an array?  
+A. myArray.add( 5 );  
+B. myArray.push( 5 );  
+C. myArray.poke( 5 );  
+D. myArray.append( 5 );  
+E. myArray.insert( 5 );  
+Answer: `myArray.push( 5 );`  
