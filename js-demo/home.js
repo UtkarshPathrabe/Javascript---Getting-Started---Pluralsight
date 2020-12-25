@@ -1,10 +1,9 @@
-let person = {
-	name: 'John',
-	age: 32,
-	partTime: false,
-};
-function incrementAge(person) {
-	person.age++;
-}
-incrementAge(person);
-showMessage(person.age);
+// let now = new Date();
+// showMessage(now.toDateString());
+
+// showMessage(Math.abs(-42));
+
+// showMessage(Math.random());
+
+let s = 'Hello';
+showMessage(s.charAt(0));
