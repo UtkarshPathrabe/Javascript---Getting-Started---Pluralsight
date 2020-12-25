@@ -51,3 +51,23 @@ B. Sacramento
 C. null  
 D. Amsterdam  
 Answer: `Sacramento`  
+
+Q05. What attribute allows you to uniquely identify any HTML element?  
+A. elementId  
+B. id  
+C. name  
+D. tag  
+E. tagId  
+Answer: `id`  
+
+Q06. What shows in the console?  
+```
+/* console.log(1); */
+// console.log(2);
+console.log(3);
+```  
+A. 2  
+B. 3
+C. 1 and 2  
+D. 1, 2 and 3  
+Answer: `3`  
