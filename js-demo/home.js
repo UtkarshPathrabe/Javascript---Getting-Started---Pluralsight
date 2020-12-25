@@ -1,8 +1,5 @@
 const values = ['a', 'b', 'c'];
-values.push('d');
+const newValues = values.slice(1, 2);
+console.log(newValues);
+values.splice(1, 0, 'foo');
 console.log(values);
-const last = values.pop();
-console.log(last, values);
-values.unshift('aaa');
-console.log(values);
-console.log(values.shift(), values);
