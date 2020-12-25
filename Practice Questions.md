@@ -36,3 +36,18 @@ B. foo{beta}
 C. foo(beta)  
 D. foo->beta  
 Answer: `foo.beta`  
+
+Q04. What is the value of `result`?  
+```
+let places = [
+  { city: 'Amsterdam', europe: true },
+  { city: 'Paris', europe: true },
+  { city: 'Sacramento', europe: false }
+];
+let result = places[2].city;
+```  
+A. Paris  
+B. Sacramento  
+C. null  
+D. Amsterdam  
+Answer: `Sacramento`  
