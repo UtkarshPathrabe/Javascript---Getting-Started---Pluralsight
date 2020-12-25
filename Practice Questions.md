@@ -118,3 +118,51 @@ B. TypeError
 C. undefined  
 D. no  
 Answer: `no`  
+
+Q11. What shows in the console?  
+```
+function foo(a, b, c) {
+  console.log( b );
+}
+foo( 4, 5, 6 );
+```  
+A. b  
+B. 6  
+C. 5  
+D. 4  
+Answer: `5`  
+
+Q12. In JavaScript, what does the following evaluate to?  
+```
+4 + 3 * 2
+```  
+A. 24  
+B. 7  
+C. 10  
+D. 49  
+Answer: `10`  
+
+Q13. What is an uninitialized variable set to?  
+```
+let result;
+// what is result?
+```  
+A. null  
+B. undefined  
+C. NaN  
+D. 0  
+Answer: `undefined`  
+
+Q14. What shows in the console?  
+```
+if (5 >= 5) {
+  console.log('first');
+} else {
+  console.log('second');
+}
+```  
+A. first second  
+B. second  
+C. first  
+D. (nothing)  
+Answer: `first`  
