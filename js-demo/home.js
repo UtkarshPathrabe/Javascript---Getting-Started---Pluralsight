@@ -1,2 +1,4 @@
-const header = document.getElementById('message');
-header.style.color = '#FFFFFF';
+const button = document.getElementById('see-review');
+button.addEventListener('click', function () {
+	console.log('click');
+});
