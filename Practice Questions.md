@@ -89,3 +89,32 @@ B. 2
 C. 3  
 D. 1  
 Answer: `undefined`  
+
+Q09. How many times will this loop execute?  
+```
+let count = 5;
+while (count) {
+  console.log(count);
+  count--;
+}
+```  
+A. 5  
+B. 4  
+C. Never  
+D. 6  
+Answer: `5`  
+
+Q10. What shows in the console?  
+```
+var message = "no";
+function foo(message) {
+  message = "yes";
+}
+foo(message);
+console.log(message);
+```  
+A. null  
+B. TypeError  
+C. undefined  
+D. no  
+Answer: `no`  
