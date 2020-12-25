@@ -71,3 +71,21 @@ B. 3
 C. 1 and 2  
 D. 1, 2 and 3  
 Answer: `3`  
+
+Q07. Which HTML tag is used to add JavaScript to a web page?  
+A. `<script>`  
+B. `<source>`  
+C. `<src>`  
+D. `<import>`  
+Answer: `<script>`  
+
+Q08. What shows in the console?  
+```
+let arr = [ 1, 2, 3 ];
+console.log(arr[3]);
+```  
+A. undefined  
+B. 2  
+C. 3  
+D. 1  
+Answer: `undefined`  
