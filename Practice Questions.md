@@ -174,3 +174,10 @@ C. myArray.poke( 5 );
 D. myArray.append( 5 );  
 E. myArray.insert( 5 );  
 Answer: `myArray.push( 5 );`  
+
+Q16. Which DOM function returns an element based on its id attribute?  
+A. document.get( id );  
+B. document.getElement( id );  
+C. document.getId( id );  
+D. document.getElementById( id );  
+Answer: `document.getElementById( id );`  
