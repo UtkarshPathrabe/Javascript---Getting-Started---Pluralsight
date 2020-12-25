@@ -5,5 +5,5 @@
 
 // showMessage(Math.random());
 
-let s = 'Hello';
-showMessage(s.charAt(0));
+// let s = 'Hello';
+// showMessage(s.charAt(0));
