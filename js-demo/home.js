@@ -2,9 +2,9 @@ let person = {
 	name: 'John',
 	age: 32,
 	partTime: false,
-	showInfo: function (realAge) {
-		showMessage(this.name + ' is ' + realAge);
-	},
 };
-
-person.showInfo(34);
+function incrementAge(person) {
+	person.age++;
+}
+incrementAge(person);
+showMessage(person.age);
